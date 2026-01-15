@@ -9,9 +9,9 @@ from dotenv import load_dotenv
 
 # تحميل البيانات السرية من ملف .env أو إعدادات السيرفر
 load_dotenv()
-DISCORD_TOKEN = os.getenv("MTQ2MTM0NTg5MTIwOTMxODQyMA.GVC7hO.KW416U5E6WPiM5pQ_qdo5H0oZwHZ1VlhpBr6cU")
-GEMINI_KEY = os.getenv("AIzaSyAvAVXbOLCkHfy_3IeNDaZf1534Fe6r3sg")
-ROLE_ID = os.getenv("1286327980938887251")
+DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+GEMINI_KEY = os.getenv("GEMINI_KEY")
+ROLE_ID = os.getenv("ROLE_ID")
 
 # إعداد ذكاء Gemini الاصطناعي
 genai.configure(api_key=GEMINI_KEY)
