@@ -1,4 +1,4 @@
 discord.py[voice]
-google-generativeai
+google-genai
 gTTS
 python-dotenv
